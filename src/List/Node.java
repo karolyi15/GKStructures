@@ -4,7 +4,7 @@ public class Node<T> {
 
     private T data;
     private Node<T> next;
-    private Node<T> previos;
+    private Node<T> previous;
 
     public Node(T data){
         this.data=data;
@@ -26,11 +26,11 @@ public class Node<T> {
         this.next = next;
     }
 
-    public Node<T> getPrevios() {
-        return previos;
+    public Node<T> getPrevious() {
+        return previous;
     }
 
-    public void setPrevios(Node<T> previos) {
-        this.previos = previos;
+    public void setPrevious(Node<T> previous) {
+        this.previous = previous;
     }
 }
